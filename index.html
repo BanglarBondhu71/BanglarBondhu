@@ -14,21 +14,32 @@
     />
     <!-- Font Awesome -->
     <link
+      href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css"
       rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
+      type="text/css"
     />
 
     <!-- Style CSS -->
     <link href="style.css" rel="stylesheet" />
 
-    <title>Hello, world!</title>
+    <title>Banglar Bondhu</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm ms-auto navbar-light">
+    <nav
+      class="
+        navbar
+        sticky-top
+        bg-white
+        navbar-expand-sm
+        ms-auto
+        navbar-light
+        fs-6
+      "
+    >
       <div class="container">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.png" alt="logo" width="65px" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -52,7 +63,7 @@
               <a class="nav-link" href="#">Testimonial</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary" href="#" role="button">Coming Soon</a>
+              <a class="nav-btn btn fs-6" href="#" role="button">Coming Soon</a>
             </li>
           </ul>
         </div>
@@ -71,30 +82,449 @@
       </div>
 
       <div class="caption text-center">
-        <h1>Video</h1>
-      </div>
-
-      <!-- <video
-        playsinline="playsinline"
-        autoplay="autoplay"
-        muted="muted"
-        loop="loop"
-      >
-        <source src="assets/videos/2.webm" type="video/webm" />
-      </video> -->
-      <!-- The header content -->
-      <div class="container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-          <div class="w-100 text-white">
-            <h1 class="display-3">Video Header</h1>
-            <p class="lead mb-0">Using HTML5 Video and Bootstrap</p>
-          </div>
-        </div>
+        <h1>A Friend,</h1>
+        <h2>to keep you safe and sound.</h2>
+        <p>
+          A medical robot: works as a Nurse or an assistant of the Doctors.
+          Gives company to the patients.
+        </p>
       </div>
     </header>
 
     <main>
+      <!-- <div class="container my-5 ms-auto text-center">
+        <div class="row justify-content-center align-items-center">
+          <div class="col">
+            <p>Brought yo you by</p>
+            <img
+              src="assets/images/aust_logo_adobespark.png"
+              alt="aust-logo"
+              width="250px"
+            />
+          </div>
+        </div>
+      </div> -->
+      <!-- Motivation -->
+      <section class="technology my-5">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="section-header">
+              Our Motivation
+              <span></span>
+            </h2>
+          </div>
+        </div>
+        <div class="container my-5">
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <p class="fs-5">
+                    Banglar Bondhu is a medical robot which contains 4 different
+                    types of controller with a variety of sensor activities(with
+                    some basic image detection). It will basically serve the
+                    medical purpose by assisting the doctor and helping the
+                    nurses. In this coronavirus pandemic time we have faced a
+                    very big shortage of our medical personnel(66,958 registered
+                    nurses & 86,800 MBBS doctors). Banglar bondhu exactly
+                    addresses this point and gives us relief in these cases.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Features -->
+      <section class="features my-5">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2 class="section-header">
+              Features
+              <span></span>
+            </h2>
+          </div>
+        </div>
+        <div class="container fs-5">
+          <div class="row justify-content-around align-items-center">
+            <div class="col-sm-12 col-md-4 mb-5">
+              <p>
+                <strong>A medical robot</strong> works as a Nurse or an
+                assistant of the Doctors.
+              </p>
+              <span>
+                <p class="">
+                  <i class="fas fa-search-plus"></i> Critical Observation &
+                  Comment
+                </p>
+              </span>
+              <span>
+                <p class="">
+                  <i class="fas fa-vial"></i> Sample Collection & Store
+                </p>
+              </span>
+              <span>
+                <p class="">
+                  <i class="far fa-phone-plus"></i> Emergency Contact &
+                  Communication
+                </p>
+              </span>
+              <span>
+                <p><i class="fas fa-pump-soap"></i> Sanitization</p>
+              </span>
+              <span>
+                <p class="">
+                  <i class="far fa-hands-helping"></i> Assistance &
+                  Companionship
+                </p>
+              </span>
+            </div>
+            <div class="col-md-8 col-sm-12 text-center img-box">
+              <img src="assets/images/1.png" class="img" alt="..." />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Controls -->
+      <section class="control my-5">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2 class="section-header">
+              Control with
+              <span></span>
+            </h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-cols-2 row-cols-md-4 g-4">
+            <div class="col text-center">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text fs-5">
+                    <i class="fas fa-microphone-alt fa-2x"></i>
+                    <br />
+                    Voice Command
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col text-center">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text fs-5">
+                    <i class="fas fa-keyboard fa-2x"></i>
+                    <br />
+                    Keypad Control
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col text-center">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text fs-5">
+                    <i class="fas fa-hand-spock fa-2x"></i>
+                    <br />
+                    Gesture Control
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col text-center">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text fs-5">
+                    <i class="fas fa-head-side-brain fa-2x"></i>
+                    <br />
+                    Emotion Control
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Specifications -->
+      <section class="spec my-5">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2 class="section-header">
+              Specifications
+              <span></span>
+            </h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-8 col-sm-12">
+              <div
+                id="carouselExampleCaptions"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="assets/images/1.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/2.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/3.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/4.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/5.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/6.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/7.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/8.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/9.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/10.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/11.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/12.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/13.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/14.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Display to show
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Detect voice and image
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i>
+                  Has display, busket, freezer, storing drawer or box, camera,
+                  speaker, retina scanner, table and stand
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Sanitizing itself properly also
+                  gives other’s sanitizer
+                </li>
+
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Measure temperature , blood
+                  pressure, diabetics, oxygen and eye power
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Contains a first aid box and a
+                  dustbin attached with his body
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Can Contact doctors in the
+                  emergency condition of patients
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Comment on a patient's condition
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Collect blood and store it in the
+                  freezer till delivering it to the pathology department
+                </li>
+
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Moveable and Flexible hands
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Coming Soon -->
+      <section class="coming-soon my-5"></section>
+
+      <!-- FAQ -->
+      <section class="faq my-5">
+        <div class="container">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  Q: What is Banglar bondhu? How does it work?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne"
+              >
+                <div class="accordion-body">
+                  Banglar Bondhu is a medical Robot that basically works as a
+                  nurse or an assistant of Doctors and gives company to the
+                  patients when they are having a hard time being isolated.
+                  Though these are the primary purpose of our robot, other
+                  features are also interesting. We divided it’s features mainly
+                  in 5 categories. It is able to provide clinical observation
+                  and comments as well as sample collection and Store. It also
+                  has Sanitization (Both itself and the Patient) features.
+                  Emergency alarms,contact,assistance and companionships are
+                  also present there.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                  Q: Is there a possibility to add more features?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo"
+              >
+                <div class="accordion-body">
+                  Yes, We can make it according to your needs.Contact our email
+                  address for this purpose
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  How long would it take to be in reality?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree"
+              >
+                <div class="accordion-body">
+                  We are hoping to launch it very soon. Hopefully in the first
+                  quarter of 2022.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Optional JavaScript; choose one of the two! -->
