@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- AOS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -21,6 +23,8 @@
 
     <!-- Style CSS -->
     <link href="style.css" rel="stylesheet" />
+    
+  
 
     <title>Banglar Bondhu</title>
   </head>
@@ -85,7 +89,7 @@
         <h1>A Friend,</h1>
         <h2>to keep you safe and sound.</h2>
         <p>
-          A medical robot: works as a Nurse or an assistant of the Doctors.
+          A Medical Robot: works as a Nurse or an assistant of the Doctors.
           Gives company to the patients.
         </p>
       </div>
@@ -105,8 +109,8 @@
         </div>
       </div> -->
       <!-- Motivation -->
-      <section class="technology my-5">
-        <div class="row text-center">
+      <section class="technology my-5" data-aos="zoom-in">
+        <div class="row text-center" >
           <div class="col">
             <h2 class="section-header">
               Our Motivation
@@ -114,25 +118,28 @@
             </h2>
           </div>
         </div>
-        <div class="container my-5">
-          <div class="row">
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <p class="fs-5">
-                    Banglar Bondhu is a medical robot which contains 4 different
-                    types of controller with a variety of sensor activities(with
-                    some basic image detection). It will basically serve the
-                    medical purpose by assisting the doctor and helping the
-                    nurses. In this coronavirus pandemic time we have faced a
-                    very big shortage of our medical personnel(66,958 registered
-                    nurses & 86,800 MBBS doctors). Banglar bondhu exactly
-                    addresses this point and gives us relief in these cases.
-                  </p>
+        <div class="container my-5" >
+         
+
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <p class="fs-5 p-4">
+                      Banglar Bondhu is a medical robot which contains 4 different
+                      types of controller with a variety of sensor activities
+                      (with some basic image detection). It will mostly serve the
+                      medical purpose by assisting the doctors and helping the
+                      nurses. In this coronavirus pandemic time we have faced a
+                      very big shortage of our medical personnel(66,958 registered
+                      nurses & 86,800 MBBS doctors). Banglar bondhu exactly
+                      addresses this point and gives us relief in these cases.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          
         </div>
       </section>
       <!-- Features -->
@@ -147,7 +154,7 @@
         </div>
         <div class="container fs-5">
           <div class="row justify-content-around align-items-center">
-            <div class="col-sm-12 col-md-4 mb-5">
+            <div class="col-sm-12 col-md-4 mb-5 clip-bg">
               <p>
                 <strong>A medical robot</strong> works as a Nurse or an
                 assistant of the Doctors.
@@ -392,6 +399,9 @@
             <div class="col-md-4 col-sm-12">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
+                  <i class="fas fa-check"></i> Moveable and Flexible hands
+                </li>
+                <li class="list-group-item">
                   <i class="fas fa-check"></i> Display to show
                 </li>
                 <li class="list-group-item">
@@ -399,8 +409,8 @@
                 </li>
                 <li class="list-group-item">
                   <i class="fas fa-check"></i>
-                  Has display, busket, freezer, storing drawer or box, camera,
-                  speaker, retina scanner, table and stand
+                  Has Display, Busket, Freezer, Storing drawer or box, Camera,
+                  Speaker, Retina scanner,Table and Stand
                 </li>
                 <li class="list-group-item">
                   <i class="fas fa-check"></i> Sanitizing itself properly also
@@ -412,8 +422,16 @@
                   pressure, diabetics, oxygen and eye power
                 </li>
                 <li class="list-group-item">
+                  <i class="fas fa-check"></i> Show result on screen of the
+                  reports of eye power
+                </li>
+                <li class="list-group-item">
                   <i class="fas fa-check"></i> Contains a first aid box and a
                   dustbin attached with his body
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Collect blood and store it in the
+                  freezer till delivering it to the pathology department
                 </li>
                 <li class="list-group-item">
                   <i class="fas fa-check"></i> Can Contact doctors in the
@@ -422,13 +440,19 @@
                 <li class="list-group-item">
                   <i class="fas fa-check"></i> Comment on a patient's condition
                 </li>
-                <li class="list-group-item">
-                  <i class="fas fa-check"></i> Collect blood and store it in the
-                  freezer till delivering it to the pathology department
-                </li>
 
                 <li class="list-group-item">
-                  <i class="fas fa-check"></i> Moveable and Flexible hands
+                  <i class="fas fa-check"></i> Uses Machine Learning for
+                  predicting diseases from a dataset of some diseases. Here it
+                  can detect simple diseases
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Entertain patients by showing
+                  songs,videos and jokes
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Can provide Video calls with
+                  doctors and patients' families
                 </li>
               </ul>
             </div>
@@ -437,96 +461,112 @@
       </section>
       <!-- Coming Soon -->
       <section class="coming-soon my-5"></section>
-
+      <!-- Testimonials -->
+      
       <!-- FAQ -->
       <section class="faq my-5">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2 class="section-header">
+              FAQ
+              <span></span>
+            </h2>
+          </div>
+        </div>
         <div class="container">
-          <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion accordion-flush my-5" id="accordionFlushExample">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button
-                  class="accordion-button"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseOne"
-                  aria-expanded="true"
-                  aria-controls="panelsStayOpen-collapseOne"
-                >
-                  Q: What is Banglar bondhu? How does it work?
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  What is Banglar bondhu? How does it work?
                 </button>
               </h2>
-              <div
-                id="panelsStayOpen-collapseOne"
-                class="accordion-collapse collapse show"
-                aria-labelledby="panelsStayOpen-headingOne"
-              >
-                <div class="accordion-body">
-                  Banglar Bondhu is a medical Robot that basically works as a
-                  nurse or an assistant of Doctors and gives company to the
-                  patients when they are having a hard time being isolated.
-                  Though these are the primary purpose of our robot, other
-                  features are also interesting. We divided it’s features mainly
-                  in 5 categories. It is able to provide clinical observation
-                  and comments as well as sample collection and Store. It also
-                  has Sanitization (Both itself and the Patient) features.
-                  Emergency alarms,contact,assistance and companionships are
-                  also present there.
-                </div>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Banglar Bondhu is a medical Robot that basically works as a nurse or an assistant of Doctors and gives company to the patients when they are having a hard time being isolated. Though these are the primary purpose of our robot, other features are also interesting. We divided it’s features mainly in 5 categories. It is able to provide clinical observation and comments as well as sample collection and Store. It also has Sanitization (Both itself and the Patient) features. Emergency alarms,contact,assistance and companionships are also present there.</div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseTwo"
-                >
-                  Q: Is there a possibility to add more features?
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Is there a possibility to add more features?
                 </button>
               </h2>
-              <div
-                id="panelsStayOpen-collapseTwo"
-                class="accordion-collapse collapse"
-                aria-labelledby="panelsStayOpen-headingTwo"
-              >
-                <div class="accordion-body">
-                  Yes, We can make it according to your needs.Contact our email
-                  address for this purpose
-                </div>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Yes, We can make it according to your needs.Contact our email address for this purpose.</div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
-                >
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                   How long would it take to be in reality?
                 </button>
               </h2>
-              <div
-                id="panelsStayOpen-collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="panelsStayOpen-headingThree"
-              >
-                <div class="accordion-body">
-                  We are hoping to launch it very soon. Hopefully in the first
-                  quarter of 2022.
-                </div>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">We are hoping to launch it very soon. Hopefully in the first quarter of 2022.</div>
               </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  How can I order it?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Right now there is no option for ordering. Bu you can show your interest in the feedback box.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  How can I contact you?
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-4 col-sm-12">
+            <section class="form">
+              <h5>Get In Touch</h5>
+                <form action="https://formsubmit.co/2163d1a2e53fb9617d5acf9e7e63bb96" method="POST" required>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="mail">
+                    <span class="error" aria-live="polite"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message"  cols="20" rows="5" name="text" required></textarea>
+                  </div>
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="text" name="_honey" style="display:none">
+                  <button type="submit">Submit</button>
+                </form>
+            </section>
+          </div>
+          
+          <div class="col-md-4 col-sm-12">
+            <h5>Contact Us</h5>
 
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
