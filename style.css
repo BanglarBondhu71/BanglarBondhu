@@ -1,5 +1,5 @@
 .nav-btn {
-  background-color: #401b97;
+  background-color: #12082b;
   color: white;
 }
 
@@ -84,7 +84,7 @@ video {
 }
 
 .fas .far {
-  color: #5b26d8;
+  color: #090416;
 }
 
 .img-box {
@@ -162,17 +162,6 @@ video {
   color: #0e2c4a;
 } */
 
-.card {
-  background-color: #371782;
-  color: #fff;
-  transition: all 0.3s ease-in;
-}
-
-.card:hover {
-  color: #090416;
-  background-color: #fff;
-}
-
 .carousel-control-next-icon {
   background-image: url(https://cdn-icons-png.flaticon.com/512/271/271228.png);
 }
@@ -186,7 +175,7 @@ video {
 }
 
 .fa-check {
-  color: #5b26d8;
+  color: #090416;
 }
 
 .form-group {
