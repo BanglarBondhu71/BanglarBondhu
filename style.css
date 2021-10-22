@@ -202,7 +202,7 @@ button[type='submit'] {
   font-size: 18px;
   border-radius: 4px;
   font-family: 'Montserrat';
-  background-color: rgb(202, 44, 146);
+  background-color: #1b0b41;
   color: #fff;
   text-align: center;
   cursor: pointer;
@@ -241,6 +241,6 @@ input:focus.invalid {
 
 .footer {
   padding: 30px 0;
-  background-color: #5b26d8;
+  background-color: #000000;
   color: #fff;
 }
