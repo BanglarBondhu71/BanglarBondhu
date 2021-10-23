@@ -75,3 +75,25 @@ addEvent(form, 'submit', function () {
 // Get Year
 let year = new Date().getFullYear();
 document.querySelector('.year').innerHTML = `${year}`;
+
+// Like/Dislike
+var color1 = document.getElementsByClassName('fa-thumbs-up')[0];
+var color2 = document.getElementsByClassName('fa-thumbs-down')[0];
+
+function like() {
+  if (color1.style.color == '#0d6efd') {
+    color1.style.color = 'black';
+  } else {
+    color1.style.color = '#0d6efd';
+  }
+  color2.style.color = 'black';
+}
+
+function dislike() {
+  if (color2.style.color == '#0d6efd') {
+    color2.style.color = 'black';
+  } else {
+    color2.style.color = '#0d6efd';
+  }
+  color1.style.color = 'black';
+}
