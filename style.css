@@ -139,3 +139,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+.fa-thumbs-up,
+.fa-thumbs-down {
+  cursor: pointer;
+}
