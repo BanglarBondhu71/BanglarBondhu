@@ -143,3 +143,11 @@ a {
 .fa-thumbs-down {
   cursor: pointer;
 }
+
+.btn--like {
+  margin: 0;
+  border: 0;
+  outline: 0;
+  padding: 8px 16px;
+  background: #fff;
+}
