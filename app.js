@@ -70,3 +70,8 @@ addEvent(form, 'submit', function () {
     error.className = 'error';
   }
 });
+
+// Year
+// Get Year
+let year = new Date().getFullYear();
+document.querySelector('.year').innerHTML = `${year}`;
