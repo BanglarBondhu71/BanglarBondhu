@@ -157,5 +157,5 @@ a {
 }
 
 .carousel-item img {
-  filter: brightness(0.6);
+  filter: blur(1px);
 }
