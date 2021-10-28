@@ -152,9 +152,9 @@ a {
   background: #fff;
 }
 
-.carousel-caption {
+/* .carousel-caption {
   bottom: 40%;
-}
+} */
 
 .carousel-item img {
   filter: blur(1px);
