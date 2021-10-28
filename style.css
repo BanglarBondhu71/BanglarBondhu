@@ -157,5 +157,5 @@ a {
 } */
 
 .carousel-item img {
-  filter: blur(1px);
+  filter: blur(0.8px);
 }
