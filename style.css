@@ -156,6 +156,29 @@ a {
   bottom: 40%;
 } */
 
-.carousel-item img {
+.blur-img {
   filter: blur(0.8px);
+}
+
+.price {
+  color: white;
+  display: none;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 1px;
+}
+
+.addtocart {
+  border: 0;
+  outline: 0;
+  padding: 5px 10px;
+  margin: 5px 0;
+  color: #fff;
+  background-color: #3d8bfd;
+  border-radius: 4px;
 }
