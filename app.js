@@ -109,7 +109,6 @@ var btns = document.getElementsByClassName('addtocart');
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener('click', function () {
     addToCart(this);
-    this.disabled = true;
   });
 }
 
