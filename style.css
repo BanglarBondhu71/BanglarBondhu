@@ -182,3 +182,16 @@ a {
   background-color: #3d8bfd;
   border-radius: 4px;
 }
+
+.emptycart {
+  border: 0;
+  outline: 0;
+  padding: 5px 10px;
+  margin: 5px 0;
+  color: #fff;
+  background-color: red;
+}
+
+button:disabled {
+  opacity: 0.7;
+}
