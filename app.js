@@ -97,6 +97,7 @@ function dislike() {
   }
   color1.style.color = 'black';
 }
+// Price Compare Modal
 
 // Cart
 /* get cart total from session on load */
@@ -108,6 +109,7 @@ var btns = document.getElementsByClassName('addtocart');
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener('click', function () {
     addToCart(this);
+    this.disabled = true;
   });
 }
 

@@ -583,46 +583,31 @@
                <td><span id="total">101500</span>৳</td>
               </tr></table>
            <div class="cart-buttons">  
-             <button id="emptycart" class="btn btn-danger btn-sm">Empty Cart</button>
-             <button id="checkout" class="btn btn-success btn-sm">Checkout</button>
+            <button id="emptycart" class="btn btn-danger btn-sm">Empty Cart</button>
+            <button id="checkout" class="btn btn-success btn-sm">Checkout</button>
+             <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-sm priceModal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Compare Price
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/price.PNG" alt="price" class="img-fluid"/>
+      </div>
+    </div>
+  </div>
+</div>
+             
             </div>
           </div>
  </div>
-</section>
-<!-- Comparison -->
-<!-- <section class="compare my-5">
-  <div class="row text-center mb-5" id="faq">
-    <div class="col">
-      <h2 class="section-header">
-        Price Comparison
-        <span></span>
-      </h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col text-center">
-      <img src="img/price.PNG" class="img-fluid" alt="price compare graph">
-    </div>
-  </div>
-</section> -->
-
-<!-- Feasibilty -->
-<section class="compare my-5">
-  <div class="row text-center mb-5" id="faq">
-    <div class="col">
-      <h2 class="section-header">
-        Feasibilty
-        <span></span>
-      </h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col text-center">
-      <img src="img/price.PNG" class="img-fluid" alt="price compare graph"/>
-    </div>
-  </div>
-</section>
-      
+</section>  
 <!-- FAQ -->
 <section  class="faq my-5">
         <div class="row text-center mb-5" id="faq">
